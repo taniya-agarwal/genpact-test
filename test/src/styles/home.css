@@ -1,0 +1,44 @@
+.mainContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.formBanner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%
+}
+
+.ms-Dropdown-container{
+    width: 25%;
+}
+.formBanner .ms-Button{
+    margin-top: 30px;
+}
+
+.dataContainer{
+    border: 1px solid #eee;
+    margin-top: 100px;
+}
+
+.resultContainer{
+    padding: 20px;
+}
+
+.resultContainer img{
+    margin: 10px auto;
+    display: flex;
+}
+
+.detailsResult{
+    display: flex;
+    justify-content: space-between;
+}
+
+.detailsResult span{
+    font-size: 12px;
+}

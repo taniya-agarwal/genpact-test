@@ -1,15 +1,28 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Home from './components/Home'
+
+import {
+  BrowserRouter as Router,
+  Route
+} from 'react-router-dom'
+
+import { connect } from 'react-redux';
 
 class App extends Component {
+
   render() {
     return (
-      <div className="App">
-        
+      <div className="container">
+        <Router>
+
+          <Route exact={true} path={"/"} component={Home} />
+
+        </Router>
       </div>
     );
   }
 }
 
-export default App;
+
+
+export default connect()(App);
